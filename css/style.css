@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.logo{
+    border: 5px solid rgb(74, 121, 223);
+    border-radius: 100px;
+}
+
+.foot{
+    padding: 1px;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel .carousel-item {
+        height: 400px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-height: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 363px){
+    .butn{
+        margin-top: 2px;
+    }
+}
